@@ -9,6 +9,7 @@ I use MEVN Stack but maybe tomorrow I'll be using other JS stuff, maybe I will u
 This is July 2018, I will try to use the latest functions, methods and options in JS. This help me to memorize details and structures. Repeating is the best way to remember something and improve your learning. If you find this information in the future, maybe isn't new stuff but belive me, right now this features are so cool!
 
 
+
 ### I will show you things like:
 - "Template String / Template Literal"
 - "strict mode"
@@ -17,11 +18,13 @@ This is July 2018, I will try to use the latest functions, methods and options i
 - "Destructuring Array and Objects" 
 
 
+
 What do you need to know before check this material ?
 1. An Internet Browser like Google Chrome or Mozilla Firefox (because you will need use the developers tools like the console to watch the execution of the exercises).
 2. A text editor like Visual Studio Code, Atom, Sublime Text, WebStorm, NotePad, Vim, etc... ii's up to you but you will need one to watch the files downloaded!.
 3. At least you have to know how to download projects from git, obvious, you should download this material.
 4. Enjoy the class!
+
 
 
 
