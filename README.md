@@ -11,8 +11,8 @@ This is July 2018, I will try to use the latest functions, methods and options i
 
 
 ### I will show you things like:
-- "Template String / Template Literal"
 - "strict mode"
+- "Template String / Template Literal"
 - "Methods with Array and Objects" ( filter(), map(), reduce(), foreach(), some(), every, and others...)
 - "Arrow functions"
 - "Destructuring Array and Objects" 
