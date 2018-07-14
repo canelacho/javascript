@@ -24,11 +24,24 @@ What do you need to know before check this material ?
 The structure of the all the examples is:
 Each folder have a name and contain an index.html file who call the scripts.js in the /js folder that have the javascript code to run.
 
-.filter()
+---
+
+#  .filter()
 Folder: 01-filter
 - index.html
 /js
   - script.js
+
+```javascript
+// We create an Array of ages
+const friends = [18, 16, 19, 15, 16, 10];
+
+// Now we apply the filter method.  It will return a new array with the results.
+const canDrink = friends.filter( age => age >= 18 );
+
+// We show the result
+console.log(`Ages that can legally drink : ${canDrink}` )
+```
 
 # Explaining:
 
