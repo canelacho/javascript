@@ -8,7 +8,7 @@ I use MEVN Stack but maybe tomorrow I'll be using other JS stuff, maybe I will u
 
 This is July 2018, I will try to use the latest functions, methods and options in JS. This help me to memorize details and structures. Repeating is the best way to remember something and improve your learning. If you find this information in the future, maybe isn't new stuff but belive me, right now this features are so cool!
 
-
+If you want to watch the videos go to ["Canelacho's Youtube Channel"](https://www.temp.com)  - Videos are in Spanish.
 
 ### I will show you things like:
 - "strict mode"
