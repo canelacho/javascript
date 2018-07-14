@@ -28,10 +28,11 @@ Each folder have a name and contain an index.html file who call the scripts.js i
 
 #  .filter()
 Folder: 01-filter
-- index.html
-/js
-  - script.js
+\- index.html
+\- /js
+  \- script.js
 
+### Code
 ```javascript
 // We create an Array of ages
 const friends = [18, 16, 19, 15, 16, 10];
@@ -41,6 +42,9 @@ const canDrink = friends.filter( age => age >= 18 );
 
 // We show the result
 console.log(`Ages that can legally drink : ${canDrink}` )
+
+// Now, we can see the array in his original form in other line.
+console.log(canDrink)
 ```
 
 # Explaining:
