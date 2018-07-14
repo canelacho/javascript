@@ -28,9 +28,9 @@ Each folder have a name and contain an index.html file who call the scripts.js i
 
 #  .filter()
 Folder: 01-filter
-\- index.html
-\- /js
-  \- script.js
+- index.html
+- /js
+  - script.js
 
 ### Code
 ```javascript
