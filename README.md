@@ -23,7 +23,9 @@ What do you need to know before check this material ?
 1. An Internet Browser like Google Chrome or Mozilla Firefox (because you will need use the developers tools like the console to watch the execution of the exercises).
 2. A text editor like Visual Studio Code, Atom, Sublime Text, WebStorm, NotePad, Vim, etc... ii's up to you but you will need one to watch the files downloaded!.
 3. At least you have to know how to download projects from git, obvious, you should download this material.
-4. Enjoy the class!
+4. Using this methods you can create clean code and easier to read.
+5. Some of this methods are immutable, a good practice to manipulate data. 
+6. Enjoy the class!
 
 
 
@@ -35,7 +37,7 @@ The structure of the all examples is:
 ---
 
 #  .filter()
-Folder: 01-filter
+Folder: 01-Filter
 - index.html
 - /js
   - script.js
@@ -55,7 +57,7 @@ console.log(`Ages that can legally drink : ${canDrink}` )
 console.log(canDrink)
 ```
 
-# Explaining:
+# Explanation:
 
 1. Firs we create a new Array with values that represent ages of friends: `const friends = [18, 16, 19, 15, 16, 10]`
 2. Creating a new variable with name `canDrink`, it wlil recibe the result of the fliter.
@@ -69,3 +71,48 @@ console.log(canDrink)
 10. Using Template String we show in the console the result.
 11. Only the values "18" and "19" are greatter or equal than 18.
 12. In the second console.log I wan to show you the new array generated.
+
+
+
+---
+
+#  .map()
+Folder: 02-Map
+- index.html
+- /js
+  - script.js
+
+### Code
+```javascript
+// We create an Array with Prices
+const prices = [7,12,.04,8,10]
+
+// We apply map method to manipulate each value and generate a new array adding the $ at each price.
+const priceWithSymbol = prices.map( price => '$_' + price)
+
+// We show the result
+console.log(`New array with the symbol : ${ priceWithSymbol }`)
+
+// Now, we can see the array in his original form in other line.
+console.log(priceWithSymbol)
+```
+
+# Explanation:
+
+Firs we create a new Array with values that represent random prices:
+  `const prices = [7,12,.04,8,10]`
+
+  We create a new variable with name priceWithSymbol, it will recibe the result of the map() method.
+
+  Resolving the map() method appliyed to our "`prices`" array.
+
+  The map() method takes the "`prices`" array and evaluate each value of it.
+  Each iteration is load in the temp var called "`price`".
+  Using arrow function we pass the price to add the dollar sign format.
+  There is no condition, the code apply to each value the format.
+  When the map() method finish to evaluate all the positions in the array, the temp array is load in the "`priceWithSymbol`" variable.
+  Using Template String we show in the console the result.
+
+  The new array show each value with the $ sign at first.
+
+  In the second console.log We can see the new array generated.

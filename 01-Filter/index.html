@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Filter() in Javascript</title>
+  <title>filter() - Javascript</title>
 </head>
 <body>
 
   <div class="container">
 
-    <h1 class="mt-5 mb-5">Filter() in Javascript</h1>
+    <h1 class="mt-5 mb-5">filter() - Javascript</h1>
 
     <blockquote class="blockquote">
       <p class="mb-0">'strict' : A good practice to not use undeclared variables.</p>
@@ -19,11 +19,11 @@
     </blockquote>
     <blockquote class="blockquote">
       <p class="mb-0">We create an Array of ages</p>
-      <code>const friends = [18, 16, 19, 15, 16, 10];</code>
+      <code>const friends = [18, 16, 19, 15, 16, 10]</code>
     </blockquote>
     <blockquote class="blockquote">
       <p class="mb-0">Now we apply the filter method.  It will return a new array with the results.</p>
-      <code>const canDrink = friends.filter( age => age >= 18 );</code>
+      <code>const canDrink = friends.filter( age => age >= 18 )</code>
     </blockquote>
     <blockquote class="blockquote">
       <p class="mb-0">We show the result</p>
@@ -40,16 +40,16 @@
       <h2>Explaining</h2>
       <li class="mt-1">
         Firs we create a new Array with values that represent ages of friends:
-        <code>const friends = [18, 16, 19, 15, 16, 10];</code> 
+        <code>const friends = [18, 16, 19, 15, 16, 10]</code> 
       </li>
       <li class="mt-1">
-        Creating a new variable with name <code>canDrink</code>, it wlil recibe the result of the fliter.
+        Creating a new variable with name <code>canDrink</code>, it wlil recibe the result of the filter() method.
       </li>
       <li class="mt-1">
-        Resolving the filter function appliyed to our "<code>friends</code>" array.
+        Resolving the filter() method appliyed to our "<code>friends</code>" array.
       </li>
       <li class="mt-1">
-        The filter function take the "<code>friends</code>" array and evaluate each value of it.
+        The filter() method takes the "<code>friends</code>" array and evaluate each value of it.
       </li>
       <li class="mt-1">
         Each iteration is load in the temp var called "<code>age</code>".
@@ -64,7 +64,7 @@
         The values that result true are added to the temp array.
       </li>
       <li class="mt-1">
-        When the funtion filter finish to evaluate all the positions in the array, the temp array is load in the "<code>canDrink</code>" variable.
+        When the filter() method finish to evaluate all the positions in the array, the temp array is load in the "<code>canDrink</code>" variable.
       </li>
       <li class="mt-1">
           Using Template String we show in the console the result.
@@ -73,7 +73,7 @@
         Only the values "18" and "19" are greatter or equal than 18.
       </li>
       <li class="mt-1">
-        In the second console.log I wan to show you the new array generated.
+        In the second console.log We can see the new array generated.
       </li>
     </ul> 
   </div>
