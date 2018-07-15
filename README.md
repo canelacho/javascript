@@ -1,6 +1,6 @@
 # Why I love Javascript!!!
 
-A long time ago, I started develop for the web with ASP and PHP but I was looking for a lenguage to make great things and the only one who offers me to work in the Front-end and the Backend was Javascript.  It is everywhere, is nice, have a lot of peolple collaborating around the world... it was easy, don't you think? The choosed one was JS.
+A long time ago, I started develop for the web with ASP and PHP but I was looking for a lenguage to make great things and the only one who offers me to work in the Front-end and the Backend was Javascript.  It is everywhere, is nice, have a lot of people collaborating around the world... it was easy, don't you think? The choosed one was JS.
 
 Today I consider myself as a Fullstack developer, JS evangelizer and lover of JS Technology, I enjoy a lot share with others my knowledge and teach how to use it!
 
@@ -11,9 +11,9 @@ This is July 2018, I will try to use the latest functions, methods and options i
 If you want to watch the videos go to ["Canelacho's Youtube Channel"](https://www.temp.com)  - Videos are in Spanish.
 
 ### I will show you things like:
-- "strict mode"
-- "Template String / Template Literal"
-- "Methods with Array and Objects" ( filter(), map(), reduce(), foreach(), some(), every, and others...)
+- "what is and why use strict mode"
+- "Using Template String / Template Literal"
+- "Methods with Array and Objects" ( filter(), map(), reduce(), foreach(), some(), every(), and others...)
 - "Arrow functions"
 - "Destructuring Array and Objects" 
 
@@ -23,14 +23,11 @@ What do you need to know before check this material ?
 1. An Internet Browser like Google Chrome or Mozilla Firefox (because you will need use the developers tools like the console to watch the execution of the exercises).
 2. A text editor like Visual Studio Code, Atom, Sublime Text, WebStorm, NotePad, Vim, etc... ii's up to you but you will need one to watch the files downloaded!.
 3. At least you have to know how to download projects from git, obvious, you should download this material.
-4. Using this methods you can create clean code and easier to read.
+4. Using this methods you can write clean and redeable code.
 5. Some of this methods are immutable, a good practice to manipulate data. 
 6. Enjoy the class!
 
 
-
-
-The structure of the all examples is:
 > Each folder have the name of the topic to explain and it contain an index.html file who call the scripts.js in the /js folder that have the javascript code to run.
 
 
