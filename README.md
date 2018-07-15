@@ -4,14 +4,14 @@ A long time ago, I started develop for the web with ASP and PHP but I was lookin
 
 Today I consider myself as a Fullstack developer, JS evangelizer and lover of JS Technology, I enjoy a lot share with others my knowledge and teach how to use it!
 
-I use MEVN Stack but maybe tomorrow I'll be using other JS stuff, maybe I will use other tools because I'm always learning and improving myself, and of course, I'm always open to new technologies.
+I use MEVN Stack but maybe tomorrow I'll be using other JS stuff because I'm always learning and improving myself, and of course, I'm always open to new technologies.
 
 This is July 2018, I will try to use the latest functions, methods and options in JS. This help me to memorize details and structures. Repeating is the best way to remember something and improve your learning. If you find this information in the future, maybe isn't new stuff but belive me, right now this features are so cool!
 
 If you want to watch the videos go to ["Canelacho's Youtube Channel"](https://www.temp.com)  - Videos are in Spanish.
 
 ### I will show you things like:
-- "what is and why use strict mode"
+- "What is? and Why use strict mode"
 - "Using Template String / Template Literal"
 - "Methods with Array and Objects" ( filter(), map(), reduce(), foreach(), some(), every(), and others...)
 - "Arrow functions"
@@ -33,51 +33,17 @@ What do you need to know before check this material ?
 
 ---
 
-#  .filter()
-Folder: 01-Filter
-- index.html
-- /js
-  - script.js
-
-### Code
-```javascript
-// We create an Array of ages
-const friends = [18, 16, 19, 15, 16, 10];
-
-// Now we apply the filter method.  It will return a new array with the results.
-const canDrink = friends.filter( age => age >= 18 );
-
-// We show the result
-console.log(`Ages that can legally drink : ${canDrink}` )
-
-// Now, we can see the array in his original form in other line.
-console.log(canDrink)
-```
-
-# Explanation:
-
-1. Firs we create a new Array with values that represent ages of friends: `const friends = [18, 16, 19, 15, 16, 10]`
-2. Creating a new variable with name `canDrink`, it wlil recibe the result of the fliter.
-3. Resolving the filter function appliyed to our "`friends`" array.
-4. The filter function take the "`friends`" array and evaluate each value of it.
-5. Each iteration is load in the temp var called "`age`".
-6. Using arrow function we pass the age to evaluate if it is greatter than "18".
-7. If the condition result true, then a new array is generate as a temp array.
-8. The values that result true are added to the temp array.
-9. When the funtion filter finish to evaluate all the positions in the array, the temp array is load in the "canDrink" variable.
-10. Using Template String we show in the console the result.
-11. Only the values "18" and "19" are greatter or equal than 18.
-12. In the second console.log I wan to show you the new array generated.
-
-
-
----
-
 #  .map()
-Folder: 02-Map
+Folder: 01-Map
 - index.html
 - /js
   - script.js
+
+
+### Tehory
+The **map()** method creates a new array with the results of calling a provided function on every element in the calling array.
+[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
 
 ### Code
 ```javascript
@@ -99,17 +65,105 @@ console.log(priceWithSymbol)
 Firs we create a new Array with values that represent random prices:
   `const prices = [7,12,.04,8,10]`
 
-  We create a new variable with name priceWithSymbol, it will recibe the result of the map() method.
+  1. We create a new variable with name priceWithSymbol, it will recibe the result of the `map()` method.
+  2. Resolving the `map()` method applied to our "`prices`" array.
+  3. The `map()` method takes the "`prices`" array and evaluate each value of it.
+  4. Each iteration is load in the temp var called "`price`".
+  5. Using arrow function we pass the price to add the dollar sign format.
+  6. There is no condition, the code apply to each value the format.
+  7. When the `map()` method finish to evaluate all the positions in the array, the temp array is load in the "`priceWithSymbol`" variable.
+  8. Using Template String we show in the console the result.
+  9. The new array show each value with the $ sign at first.
+  10. In the second console.log we can see the new array generated.
 
-  Resolving the map() method appliyed to our "`prices`" array.
 
-  The map() method takes the "`prices`" array and evaluate each value of it.
-  Each iteration is load in the temp var called "`price`".
-  Using arrow function we pass the price to add the dollar sign format.
-  There is no condition, the code apply to each value the format.
-  When the map() method finish to evaluate all the positions in the array, the temp array is load in the "`priceWithSymbol`" variable.
-  Using Template String we show in the console the result.
+---
 
-  The new array show each value with the $ sign at first.
+#  .filter()
+Folder: 02-Filter
+- index.html
+- /js
+  - script.js
 
-  In the second console.log We can see the new array generated.
+
+### Tehory
+The **filter()** method creates a new array with all elements that pass the test implemented by the provided function.
+[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+
+### Code
+```javascript
+// We create an Array of ages
+const friends = [18, 16, 19, 15, 16, 10]
+
+// Now we apply the filter method.  It will return a new array with the results.
+const canDrink = friends.filter( age => age >= 18 )
+
+// We show the result
+console.log(`Ages that can legally drink : ${canDrink}` )
+
+// Now, we can see the array in his original form in other line.
+console.log(canDrink)
+```
+
+# Explanation:
+
+1. Firs we create a new Array with values that represent ages of friends: `const friends = [18, 16, 19, 15, 16, 10]`
+2. Creating a new variable with name `canDrink`, it wlil recibe the result of the `filter()` method.
+3. Resolving the `filter()` method applied to our "`friends`" array.
+4. The `filter()` method take the "`friends`" array and evaluate each value of it.
+5. Each iteration is load in the temp var called "`age`".
+6. Using arrow function we pass the age to evaluate if it is greatter than "18".
+7. If the condition result true, then a new array is generate as a temp array.
+8. The values that result true are added to the temp array.
+9. When the funtion filter finish to evaluate all the positions in the array, the temp array is load in the "`canDrink`" variable.
+10. Using Template String we show in the console the result.
+11. Only the values "18" and "19" are greatter or equal than 18.
+12. In the second console.log we can see the new array generated.
+
+
+---
+
+
+#  .reduce()
+Folder: 03-Reduce
+- index.html
+- /js
+  - script.js
+
+
+### Tehory
+The **reduce()** method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
+[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+
+### Code
+```javascript
+// We create an Array of values
+const numbers = [5, 14, 1, 10]
+
+// Now we apply the reduce method and save the result in a variable called "total".
+// The reduce method will take each value of the array "numbers".
+// We add two arguments at the reduce method, called "accumulator" and "currentValue".
+// For each value iterated in the "currentValue" will be passed to accumulate in the "accumulator" varibale.
+const total = numbers.reduce( (accumulator, currentValue) => accumulator + currentValue)
+
+// We show the result
+console.log(`Total accumulate : ${total}` )
+
+// Now, we can see the result in his original form in other line.
+console.log(total)
+```
+
+# Explanation:
+
+1. Firs we create a new Array with values that represent simple number: `const numbers = [5, 14, 1, 10];`
+2. Creating a new variable with name `total`, it wlil recibe the result of the `reduce()` method.
+3. Resolving the `reduce()` method applied to our "`numbers`" array.
+4. The `reduce()` method take the "`numbers`" array and evaluate each value of it.
+5. Each iteration is load in the temp var called "`currentValue`".
+6. Using arrow function we pass two arguments "`currentValue`" and "`accumulator`" to accumulate each iterate value in the "`accumulator`" variable.
+7. When the `reduce()` method finish to evaluate all the positions in the array, the result in the temp array is load in the "`total`" variable.
+8. Using Template String we show in the console the result.
+9. In the second console.log we can see the result.
+

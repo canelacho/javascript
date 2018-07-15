@@ -28,16 +28,20 @@
     <blockquote class="blockquote">
       <p class="mb-0">We show the result</p>
       <code>console.log(`Ages that can legally drink : ${canDrink}` )</code>
-      <code style="color:grey">// Ages that can legally drink : 18,19</code>
+      <div>
+        <code style="color:grey">// Ages that can legally drink : 18,19</code>
+      </div>
     </blockquote>
     <blockquote class="blockquote">
       <p class="mb-0">Now, we can see the array in his original form in other line.</p>
       <code>console.log(canDrink)</code>
-      <code style="color:grey"> // (2) [18, 19]</code>
+      <div>
+        <code style="color:grey"> // (2) [18, 19]</code>
+      </div>
     </blockquote>
     <hr>
     <ul style="list-style-type:decimal"> 
-      <h2>Explaining</h2>
+      <h2>Explanation</h2>
       <li class="mt-1">
         Firs we create a new Array with values that represent ages of friends:
         <code>const friends = [18, 16, 19, 15, 16, 10]</code> 
@@ -46,10 +50,10 @@
         Creating a new variable with name <code>canDrink</code>, it wlil recibe the result of the filter() method.
       </li>
       <li class="mt-1">
-        Resolving the filter() method appliyed to our "<code>friends</code>" array.
+        Resolving the <code>filter()</code> method appliyed to our "<code>friends</code>" array.
       </li>
       <li class="mt-1">
-        The filter() method takes the "<code>friends</code>" array and evaluate each value of it.
+        The <code>filter()</code> method takes the "<code>friends</code>" array and evaluate each value of it.
       </li>
       <li class="mt-1">
         Each iteration is load in the temp var called "<code>age</code>".
@@ -58,13 +62,13 @@
         Using arrow function we pass the age to evaluate if it is greatter than "<code>18</code>".
       </li>
       <li class="mt-1">
-        If the condition result true, then a new array is generate as a temp array.
+        If the condition result <code>true</code>, then a new array is generate as a temp array.
       </li>
       <li class="mt-1">
-        The values that result true are added to the temp array.
+        The values that result <code>true</code> are added to the temp array.
       </li>
       <li class="mt-1">
-        When the filter() method finish to evaluate all the positions in the array, the temp array is load in the "<code>canDrink</code>" variable.
+        When the <code>filter()</code> method finish to evaluate all the positions in the array, the temp array is load in the "<code>canDrink</code>" variable.
       </li>
       <li class="mt-1">
           Using Template String we show in the console the result.
