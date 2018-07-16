@@ -35,7 +35,7 @@ What do you need to know before check this material ?
 
 
 #  .forEach()
-Folder: 000-ForEach
+Folder: 00-ForEach
 - index.html
 - /js
   - script.js
@@ -43,7 +43,7 @@ Folder: 000-ForEach
 
 ### Theory
 The **forEach()** method executes a provided function once for each array element.
-[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+> [by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 
 ### Code
@@ -79,7 +79,7 @@ Folder: 01-Map
 
 ### Theory
 The **map()** method creates a new array with the results of calling a provided function on every element in the calling array.
-[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+> [by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 
 ### Code
@@ -125,7 +125,7 @@ Folder: 02-Filter
 
 ### Theory
 The **filter()** method creates a new array with all elements that pass the test implemented by the provided function.
-[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+> [by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 
 ### Code
@@ -171,7 +171,7 @@ Folder: 03-Reduce
 
 ### Theory
 The **reduce()** method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
-[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+> [by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 
 ### Code
@@ -217,7 +217,7 @@ Folder: 04-Some
 
 ### Theory
 The **some()** method tests whether at least one element in the array passes the test implemented by the provided function.
-[by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+> [by : developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
 
 ### Code
